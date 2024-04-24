@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: firebrick;
+    font-family: Rubik, sans-serif, Verdana, serif;
+    font-style: italic;
+    text-shadow: 2px 2px navy;
+}
+
+.top-logo {
+    display: grid;
+    grid-template: "b a";
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+#app {
+    width: 65vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Rubik, sans-serif, Verdana, sans-serif;
+}
+
+.hamster-logo {
+    border-radius: 50%;
+}
